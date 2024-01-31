@@ -124,10 +124,10 @@ img{
 
 
 
-.hero{
+/* .hero{
     
 
-}
+} */
 .solutions{
     color:  #FfffFF;
     text-align: center;
@@ -214,10 +214,10 @@ width: calc( (100% - 72px) / 4);
     padding: 24px 100px;
     
 }
-.icon-svg{
+/* .icon-svg{
     
 
-}
+} */
 
 .features-text{
     color:#434455;
@@ -298,8 +298,6 @@ width: calc( (100% - 72px) / 4);
 
 .human {
     text-align: center;
-    /* padding-bottom: 8px; */
-    /* padding-top: 32px; */
     text-align: center;
     margin-bottom: 8px;
 }
@@ -311,13 +309,13 @@ width: calc( (100% - 72px) / 4);
     display: flex;
 } */
 .social-link{
-    position: relative;
-
     display: block;
     width: 40px;
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    padding: 12px;
+    
 }
 
 .social-list{
@@ -325,14 +323,11 @@ width: calc( (100% - 72px) / 4);
     gap: 24px;
     justify-content: center;
     align-items: center;
+    
 }
 
-.social-svg{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    ;
-}
+/* .social-svg{
+} */
 
 
 
