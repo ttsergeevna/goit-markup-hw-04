@@ -203,10 +203,19 @@ width: calc( (100% - 72px) / 4);
 
 .icon-back{
     background-color:#F4F4FD ;
-    /* fill: black; */
+    border-radius: 4px;
+    border: 1px solid  #8E8F99;
+    margin-bottom: 8px;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    
 }
-/* fill="#2e2f42" */
+.icon-svg{
+    
+    padding: 24px 100px;
 
+}
 
 .features-text{
     color:#434455;
@@ -295,6 +304,31 @@ width: calc( (100% - 72px) / 4);
 .features-text{
     text-align: center;
 }
+
+/* .social-site{
+    display: flex;
+} */
+.social-link{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #4D5AE5;
+}
+
+.social-list{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
 
 
  /* < !--section portfolio--> */
