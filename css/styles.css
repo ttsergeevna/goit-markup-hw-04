@@ -211,12 +211,11 @@ width: calc( (100% - 72px) / 4);
     justify-content: center;
     /* width: 264px; */
     height: 112px;
+    padding: 24px 100px;
     
 }
 .icon-svg{
-    width: 64px;
-    height: 64px;
-    padding: 24px 100px;
+    
 
 }
 
