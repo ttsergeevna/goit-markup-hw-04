@@ -202,17 +202,20 @@ width: calc( (100% - 72px) / 4);
 }
 
 .icon-back{
+    display: flex;
     background-color:#F4F4FD ;
     border-radius: 4px;
     border: 1px solid  #8E8F99;
     margin-bottom: 8px;
     align-items: center;
-    width: 264px;
+    justify-content: center;
+    /* width: 264px; */
     height: 112px;
     
 }
 .icon-svg{
-    
+    width: 64px;
+    height: 64px;
     padding: 24px 100px;
 
 }
@@ -309,6 +312,8 @@ width: calc( (100% - 72px) / 4);
     display: flex;
 } */
 .social-link{
+    position: relative;
+
     display: block;
     width: 40px;
     height: 40px;
@@ -321,6 +326,13 @@ width: calc( (100% - 72px) / 4);
     gap: 24px;
     justify-content: center;
     align-items: center;
+}
+
+.social-svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    ;
 }
 
 
