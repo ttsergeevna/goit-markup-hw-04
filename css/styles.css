@@ -129,7 +129,7 @@ img{
     
 }
 
-/* ================= */
+/* ================= ===================================================*/
 /* section 1  hero*/
 .section-one {
     max-width: 1440px;
@@ -137,20 +137,12 @@ img{
     background-color: #2E2F42;
     text-align: center;
     padding: 188px 0;
-    
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
-    
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-
-
-/* .hero{
-    
-
-} */
 .solutions{
     color:  #FfffFF;
     text-align: center;
@@ -336,6 +328,7 @@ width: calc( (100% - 72px) / 4);
     padding: 12px;
     justify-content: center;
         align-items: center;
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-link:hover,
@@ -359,7 +352,6 @@ margin-bottom: 32px;
 .social-item{
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
