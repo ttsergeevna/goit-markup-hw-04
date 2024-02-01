@@ -24,7 +24,7 @@ img{
     padding: 0 15px;
     margin:0 auto;
 }
-/* =======header========== */
+/* =======header=================================================== */
 
 .caption {
     display: flex;
@@ -93,8 +93,8 @@ img{
 .nav-text:focus {
     color: #404BBF;
 }
-.address-item{
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.address-text{
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-text{
@@ -139,6 +139,7 @@ img{
     padding: 188px 0;
     
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
+    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -350,9 +351,9 @@ width: calc( (100% - 72px) / 4);
     
 }
 
-.social-site{
+/* .social-site{
 margin-bottom: 32px;
-}
+} */
 
 .social-item{
     width: 40px;
@@ -481,4 +482,8 @@ margin-right: 120px;
 .social-link-footer:hover,
 .social-link-footer:focus{
 background-color: #31d0aa;
+}
+
+.social-list-footer{
+    gap: 16px;
 }
