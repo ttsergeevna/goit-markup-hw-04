@@ -348,6 +348,7 @@ width: calc( (100% - 72px) / 4);
     gap: 24px;
     justify-content: center;
     align-items: center;
+    margin-top: 8px;
     
 }
 
